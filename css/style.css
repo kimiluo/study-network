@@ -1,0 +1,231 @@
+.clearfix{
+  clear: both;
+}
+.container{
+  width: 950px !important;
+}
+.study-nav{
+  border-top: 2px solid #ff4438;
+  border-left: 1px solid #e3eaee;
+  border-right: 1px solid #e3eaee;
+  border-bottom: 1px solid #e3eaee;
+  margin-bottom: 10px;
+}
+.study-nav ul{
+  margin: 0;
+  padding: 0;
+}
+.study-nav li{
+  font-size: 16px;
+  text-decoration: none;
+  list-style: none;
+  line-height: 55px;
+  color: #333;
+  display: inline-block;
+  padding: 0 20px;
+}
+.study-nav li a{
+  color: #333;
+}
+.study-nav li a:hover{
+  color: #ff4438;
+  text-decoration: none;
+}
+.nav-active{
+  color: #ff4438!important;
+}
+.study-line span{
+  border-bottom: 1px solid #eee;
+  width: 100%;
+  height: 1px;
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+.study-block{
+}
+.study-block ul li{
+  list-style-type: none;
+  float: left;
+}
+.li-block {
+  background-color: #eef6ff;
+  height: 58px;
+  width: 130px;
+  color: #383d49;
+  font-size: 16px;
+  padding: 2px;
+  display: inline-block;
+}
+.li-block .number{
+  background-color: #53ccfa;
+  display: inline-block;
+  height: 54px;
+  line-height: 54px;
+  padding: 0 7px;
+  text-align: center;
+  color: #fff;
+  font-size: 26px;
+  font-weight: bold;
+}
+.li-block .title{
+  color: #383d49;
+  font-size: 16px;
+  font-weight: normal;
+  display: inline-block;
+  width: 70px;
+  margin:0;
+  vertical-align: middle;
+  margin-bottom: 10px;
+  margin-left: 12px;
+}
+.li-block .bt{
+  color: #383d49;
+  font-size: 16px;
+  font-weight: normal;
+  display: inline-block;
+  width: 50px;
+  margin:0;
+  vertical-align: middle;
+  margin-bottom: 10px;
+  margin-left: 21px;
+}
+.li-block .bt-1{
+  color: #383d49;
+  font-size: 16px;
+  font-weight: normal;
+  display: inline-block;
+  width: 65px;
+  margin:0;
+  vertical-align: middle;
+  margin-bottom: 10px;
+  margin-left: 5px;
+}
+.study-block .middle-img {
+  width: 100%;
+  height: 40px;
+}
+.study-block .middle-img li{
+  float: right;
+  width: 100%;
+  text-align: right;
+  height: 40px;
+  padding-right: 48px;
+}
+.img-tip1{
+  display: inline-block;
+  width: 18px;
+  height: 25px;
+  margin:20px 5px 0 5px;
+}
+.img-tip2{
+  display: inline-block;
+  width: 18px;
+  height: 25px;
+  margin:12px 5px 0 5px;
+}
+.top-logo{
+  background-image: url(../img/logo.png);
+  background-repeat: no-repeat;
+  height: 90px;
+  display: block;
+}
+.image-carousel{
+  background-image: url(../img/banner.png);
+  background-repeat: no-repeat;
+  height: 300px;
+  display: block;
+}
+.container h3{
+  font-size: 20px;
+  font-weight: normal;
+  color: #333;
+}
+.policy-adjustment .row{
+  margin: 0;
+}
+.study-policy{
+  display: inline-block;
+  padding: 0!important;
+}
+.study-policy .color-orange{
+  background-color: #ffb139;
+  color: #fff;
+  height: 60px;
+  width: 60px;
+  font-size: 24px;
+  display: inline-block;
+  text-align: center;
+  line-height: 60px;
+}
+.study-policy .color-blue{
+  background-color: #2cc2f9;
+  color: #fff;
+  height: 60px;
+  width: 60px;
+  font-size: 24px;
+  display: inline-block;
+  text-align: center;
+  line-height: 60px;
+}
+.study-policy .color-green{
+  background-color: #25d59b;
+  color: #fff;
+  height: 60px;
+  width: 60px;
+  font-size: 24px;
+  display: inline-block;
+  text-align: center;
+  line-height: 26px;
+  padding-top: 6px;
+}
+.study-policy ul{
+  display: inline-block;
+  padding: 0;
+  list-style-type: square;
+  margin-left: 15px;
+}
+.study-policy ul li{
+  color: #5a96f0;
+  font-size: 16px;
+  line-height: 20px;
+}
+.study-policy ul li a{
+  color: #333;
+  font-size: 16px;
+  text-decoration: none;
+}
+.guide-table table tr td{
+  border: 1px solid #e8e8e8!important;
+  color: #7b838e;
+  font-size: 16px;
+  vertical-align: middle;
+
+}
+.guide-table tr th{
+  color: #2cc2f9;
+  font-size: 20px;
+  text-align: center;
+  font-weight: normal;
+  border: 1px solid #e8e8e8!important;
+}
+.guide-table tr td:first-child{
+  width: 110px;
+  padding-left: 22px;
+  color: #383d49;
+}
+.guide-table tr:nth-child(4){
+  text-align: center;
+}
+.study-text{
+  display: inline-block;
+}
+.map-img{
+  background-image: url(../img/map.png);
+  background-repeat: no-repeat;
+  display: block;
+  height: 700px;
+}
+footer{
+  height: 240px;
+}
