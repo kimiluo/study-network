@@ -1,19 +1,22 @@
 .clearfix{
   clear: both;
 }
-.study-network .contain{
+.study-network .container{
   width: 950px !important;
   font-family: "Microsoft YaHei";
   margin: 0 auto;
 }
+.clearfix{
+  clear: both;
+}
 .study-network a:focus{
   outline: none;
 }
-.study-network .contain .row{
+.study-network .container .row{
   margin-right: 5;
   margin-left: 5;
 }
-.study-network .contain .school-link{
+.study-network .container .school-link{
   line-height: 45px;
   color: #7b838e;
   float: right;
@@ -152,7 +155,7 @@
   background-repeat: no-repeat;
   display: block;
 }
-.study-network .contain h3{
+.study-network .container h3{
   font-size: 20px;
   font-weight: normal;
   color: #333;
@@ -792,7 +795,7 @@
 }
 
 /*新闻页*/
-.study-network .news-contain .row{
+.study-network .news-container .row{
     padding-left: 0;
     padding-right: 0;
 }
