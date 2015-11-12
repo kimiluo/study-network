@@ -9,11 +9,11 @@
 .study-network a:focus{
   outline: none;
 }
-.study-network .container .row{
+.study-network .contain .row{
   margin-right: 5;
   margin-left: 5;
 }
-.study-network .container .school-link{
+.study-network .contain .school-link{
   line-height: 45px;
   color: #7b838e;
   float: right;
@@ -144,7 +144,6 @@
   background-image: url(../img/logoa.png);
   background-repeat: no-repeat;
   height: 90px;
-  width : 918px;
   display: block;
   background-size: contain;
 }
@@ -153,12 +152,16 @@
   background-repeat: no-repeat;
   display: block;
 }
-.study-network .container h3{
+.study-network .contain h3{
   font-size: 20px;
   font-weight: normal;
   color: #333;
   margin-top: 30px;
   display: block;
+}
+.study-network .policy-adjustment{
+  clear: both;
+  margin-top: 30px;
 }
 .study-network .policy-adjustment .row{
   margin: 0;
@@ -789,7 +792,7 @@
 }
 
 /*新闻页*/
-.study-network .news-container .row{
+.study-network .news-contain .row{
     padding-left: 0;
     padding-right: 0;
 }
