@@ -32,6 +32,7 @@
   margin: 0;
   padding: 0;
   display: block;
+  height: 55px;
 }
 .study-network .study-nav li{
   font-size: 16px;
@@ -41,6 +42,7 @@
   list-style-type: none;
   color: #333;
   display: inline-block;
+  float: left;
   padding: 0 20px;
 }
 .study-network .study-nav li a{
@@ -62,6 +64,7 @@
 }
 .study-network .study-block ul {
   padding : 0;
+  margin-left: 0;
 }
 .study-network .study-block ul li{
   list-style-type: none;
@@ -147,6 +150,7 @@
   background-image: url(../img/logoa.png);
   background-repeat: no-repeat;
   height: 90px;
+  width : 918px/9;
   display: block;
   background-size: contain;
 }
@@ -172,6 +176,8 @@
 .study-network .study-policy{
   display: inline-block;
   padding: 0!important;
+  float: left;
+  width: 33%;
 }
 .study-network .study-policy .color-orange{
   background-color: #ffb139;
@@ -231,7 +237,8 @@
   list-style-type: square;
   color: #5a96f0;
   display: inline-block;
-  padding-left: 30px;
+  margin-left: 30px;
+  padding-left: 0;
 }
 .study-network .table-bordered span{
   color: #7b838e;
@@ -243,6 +250,7 @@
   border: 1px solid #e8e8e8!important;
   color: #7b838e;
   font-size: 16px;
+  padding : 10px;
 }
 .study-network .guide-table table tr td p{
   color: #7b838e;
@@ -362,13 +370,23 @@
 .study-network .study-text{
   display: inline-block;
   height: 50px;
+  float: left;
 }
 .study-network .study-text h3{
   font-size: 22px;
   display: inline-block;
   padding-right: 10px;
   vertical-align: middle;
+  float : left;
+  line-height : 40px;
   margin: 0;
+}
+.study-network .study-text .text-img{
+  margin-left: 10px;
+  display: inline-block;
+  vertical-align: middle;
+  float: left;
+  padding-top: 10px;
 }
 .study-network .study-text span{
   font-size: 28px;
@@ -376,12 +394,18 @@
   margin-left: 10px;
   display: inline-block;
   vertical-align: middle;
+  float: left;
 }
 .study-network .btn :hover{
   text-decoration: none;
 }
+.study-network .study-recommend .penple-img{
+  width : 33%;
+  float: left;
+}
 .study-network .study-button{
   margin:10px 0 0 5px;
+  float: left;
 }
 .study-network .study-button .green-border{
   color: #25d59b;
@@ -410,6 +434,14 @@
 .study-network .study-button p{
   color: #7b838e;
   font-size: 18px;
+}
+.study-network .btn-main{
+  float: left;
+  width : 16.67%;
+}
+.study-network .study-recommend .massage-card{
+  float: left;
+  width : 50%;
 }
 .study-network .btn-main .btn-orange{
   background-color: #ffb139;
